@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-image: url(DANCE.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+  
+  }
+  
+  img{
+    margin-right: 50px;
+    margin-left: 50px;
+    width:  60px;
+    height: 60px;
+    mix-blend-mode: color-burn;
+  }
+ .para{
+  margin-top: 160px;
+ }
+ a{
+  font-family: Franklin Gothic Medium;
+ }
+
+ pre{
+  color: rgb(26, 195, 242);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  
+ }
+
+  header, footer {
+      position: absolute;
+      background: rgba(15, 15, 15, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+  }
+  
+  .mylogo{
+    position: absolute;
+    top: 15px;
+    left: 8%;
+  }
+
+  header{
+    height: 10vh;
+  }
+  
+  footer {
+    bottom: 0%;
+  }
+  
+  .nav {
+    position: absolute;
+    width: 100%;
+  }
+  
+  .nav a{ 
+    position: relative;
+    left: 75%;
+    top: -40px;
+    color: #f1f1f1;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .Shadow{
+    background-color:rgb(26, 195, 242);
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    box-shadow: 0.3s;
+    border-radius: 5px;
+    margin-left: 200px;
+    
+}
+.Shadow:hover{
+    box-shadow: 2px 2px 2px rgb(131, 124, 124);
+    margin-bottom: 100px;
+}
+.Shadow:active{
+    transform: translateX(3px)translateY(3px);
+    opacity: 0.8;
+    box-shadow:none;
+
+}
